@@ -90,5 +90,118 @@ body{
 #our-service{
     height: 100vh;
 }
+h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--pr-color);
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
 
+.card-service{
+    height: 313px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.bulat{
+    height: 70px;
+    width: 70px;
+    background-color: var(--pr-color);
+    border-radius: 50%;
+}
+.card-service h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--pr-color);
+}
+.card-service p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+.card-service:hover{
+    background:linear-gradient(160deg, var(--pr-color), #000);
+    transition: all 0.3s ease-in;
+}
+.card-service:hover .bulat{
+    background-color: #fff;
+    transition: all 0.3s ease-in;
+}
+.card-service:hover h4{
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+.card-service:hover p{
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
 /* end layanan style */
+
+/* style temukan Rumah */
+#tmk-rumah{
+    background-image: url(image/bg-tmkrumah.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.head-tri{
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+.sub-head{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.nav-link-tab{
+    border: none;
+    height: 42px;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+
+.jual{
+    border-top-left-radius: 10px;
+}
+.property{
+    border-top-right-radius: 10px;
+}
+.nav-link-tab.active{
+    color: var(--pr-color);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.input-group{
+    height: 88px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom-left-radius: 10px;
+}
+.btn-tri{
+    height: 88px;
+    border: none;
+    background-color: transparent;
+    width: 200px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--pr-color);
+    border-right: solid 2px white;
+}
+.btn-cari{
+    height: 88px;
+    width: 135px;
+    background-color: var(--pr-color);
+    border: none;
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+/* end style temukan rumah */
