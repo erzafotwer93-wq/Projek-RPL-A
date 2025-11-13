@@ -216,3 +216,48 @@ p{
     color: var(--pr-color);
 }
 /* end style temukan rumah */
+
+/* style rekomendasi */
+.card{
+    height: 460px;
+    width: 22rem;
+    border: none;
+}
+.card-content h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: .8rem;
+}
+.card-content p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-fasilitas{
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #fff;
+}
+.card-fasilitas p{
+    font-size:12px ;
+    font-weight: 400;
+}
+.card:hover{
+    background: linear-gradient(160deg, var(--pr-color), #03cd7c, #000);
+    transition: all ease-in 0.3s;
+}
+.card:hover .card-content h4{
+    color: #fff;
+    transition: all ease-in 0.3s;
+}
+.card:hover .card-content p{
+    color: #fff;
+    transition: all ease-in 0.3s;
+}
+.card-fasilitas{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    padding-top: 10px;
+}
+/* end style rekomendasi */
